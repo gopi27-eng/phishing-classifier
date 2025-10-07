@@ -1,0 +1,19 @@
+# .gitignore
+
+# 1. Critical Secrets (MUST BE EXCLUDED)
+.env
+
+# 2. Virtual Environments
+phishing_env/
+venv/
+env/
+
+# 3. Model Files (Already on S3, often too large for Git)
+*.pkl
+
+# 4. Cache, Logs, and Build artifacts
+__pycache__/
+*.pyc
+*.log
+.DS_Store # macOS system file
+*.sqlite3
