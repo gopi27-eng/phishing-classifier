@@ -1,0 +1,20 @@
+# .dockerignore
+
+# 1. Credentials and Environment Configuration
+.env
+
+# 2. Virtual Environment
+phishing_env/
+
+
+# 3. Cache and Logs
+__pycache__/
+*.pyc
+*.log
+
+# 4. Git Metadata
+.git
+
+# 5. Build/Deployment artifacts
+*.zip
+*.tar.gz
